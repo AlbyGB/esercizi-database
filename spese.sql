@@ -49,3 +49,8 @@ INSERT INTO tags (nome) VALUES ('Sport');
 INSERT INTO tags (nome) VALUES ('Palestra');
 INSERT INTO tags (nome) VALUES ('Luce');
 INSERT INTO tags (nome) VALUES ('Gas');
+INSERT INTO spese (descrizione, data, importo, nome_categoria) VALUES ('ciao', '2023/08/16', 300, 'Vacanze');
+INSERT INTO spese (descrizione, data, importo, nome_categoria) VALUES ('ciao', '2023/08/16', 300, 'Vacanze');
+INSERT INTO spese (descrizione, data, importo, nome_categoria) VALUES ('ciao', '2023/08/16', 300, 'Vacanze');
+INSERT INTO spese (descrizione, data, importo, nome_categoria) VALUES ('ciao', '2023/08/16', 300, 'Vacanze');
+INSERT INTO spese (descrizione, data, importo, nome_categoria) VALUES ('ciao', '2023/08/16', 300, 'Vacanze');
