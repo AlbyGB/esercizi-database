@@ -4,7 +4,7 @@
 
 Si vuole realizzare un **database** per gestire le spese personali.
 
-Ogni spesa ha una **categoria** e può avere più **tags**.
+Ogni **spesa** ha una **categoria** e può avere più **tags**.
 
 La spesa contiene diverse informazioni:
 - id della spesa
