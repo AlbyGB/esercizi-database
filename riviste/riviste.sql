@@ -100,17 +100,11 @@ JOIN
 GROUP BY
     riviste.editore;
 
-/* FINIRE */
-SELECT
+SELECT DISTINCT
     riviste.nome_rivista
 FROM
     riviste
 JOIN
-    (
-        SELECT
-            articoli.argomento, articoli.codice_rivista
-        FROM
-            articoli
-        WHERE articoli.argomento = 'Motociclismo' OR articoli.argomento = 'Automobilismo'
-    ) AS boh
-ON boh.codice_rivista = riviste.codice_rivista;
+    articoli ON riviste.codice_rivista = articoli.codice_rivista
+WHERE
+    articoli.argomento IN ('Motociclismo', 'Automobilismo');
